@@ -7,12 +7,25 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/sleep
+
 # Command Line History (newest to oldest):
 :q
 :w
+:wq
+:q!
+:i
+:Q
 :l
 
 # Search String History (newest to oldest):
+?/sleep
+?/argint(
+?/argint
+?/exit
+?/EXI
+?/EXIT
 
 # Expression History (newest to oldest):
 
@@ -21,116 +34,137 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	{
 
 # File marks:
-'0  17  0  ~/xv6/sysproc.c
-'1  9  0  ~/xv6/exec.c
-'2  58  0  ~/xv6/proc.h
-'3  4  0  ~/xv6/user.h
+'0  20  0  ~/xv6/sysfile.c
+'1  107  0  ~/xv6/defs.h
+'2  17  8  ~/xv6/sysproc.c
+'3  13  0  ~/xv6/sysproc.c
+'4  39  0  ~/xv6/user.h
+'5  20  10  ~/xv6/sysproc.c
+'6  72  0  ~/xv6/sysproc.c
+'7  24  0  ~/xv6/sysproc.c
+'8  9  0  ~/xv6/exec.c
+'9  58  0  ~/xv6/proc.h
 
 # Jumplist (newest first):
--'  17  0  ~/xv6/sysproc.c
+-'  20  0  ~/xv6/sysfile.c
+-'  384  0  ~/xv6/sysfile.c
+-'  1  0  ~/xv6/sysfile.c
+-'  107  0  ~/xv6/defs.h
+-'  17  8  ~/xv6/sysproc.c
+-'  13  2  ~/xv6/sysproc.c
+-'  20  0  ~/xv6/sysproc.c
+-'  39  0  ~/xv6/user.h
+-'  4  0  ~/xv6/user.h
+-'  72  2  ~/xv6/sysproc.c
+-'  24  0  ~/xv6/sysproc.c
 -'  1  0  ~/xv6/sysproc.c
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
 -'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  9  0  ~/xv6/exec.c
 -'  1  0  ~/xv6/exec.c
 -'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  1090  0  ~/xv6/zombie.asm
+-'  1  0  ~/xv6/zombie.asm
+-'  1  0  ~/xv6/ln.h
+-'  15  0  ~/xv6/ln.c
+-'  1  0  ~/xv6/ln.c
+-'  223  0  ~/xv6/proc.c
+-'  1  0  ~/xv6/proc.c
+-'  39  0  ~/xv6/user.h
 -'  4  0  ~/xv6/user.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
 -'  1  0  ~/xv6/user.h
 -'  1  0  ~/xv6/proc.h
--'  4  0  ~/xv6/user.h
--'  1  0  ~/xv6/user.h
 -'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  9  0  ~/xv6/exec.c
+-'  1  0  ~/xv6/exec.c
+-'  58  0  ~/xv6/proc.h
+-'  1  0  ~/xv6/proc.h
+-'  15  8  ~/xv6/kill.c
 
 # History of marks within files (newest to oldest):
 
+> ~/xv6/sysfile.c
+	"	20	0
+
+> ~/xv6/defs.h
+	"	107	0
+	^	107	24
+	.	107	24
+	+	94	0
+	+	107	24
+
 > ~/xv6/sysproc.c
-	"	17	0
-	^	17	13
-	.	17	13
+	"	17	8
+	^	17	9
+	.	17	9
 	+	16	3
 	+	17	13
 	+	19	11
@@ -138,16 +172,89 @@
 	+	22	17
 	+	23	2
 	+	17	13
-	+	17	13
+	+	17	9
+
+> ~/xv6/kill.c
+	"	15	8
+	^	15	10
+	.	12	9
+	+	16	7
+	+	12	9
+
+> ~/xv6/syscall.c
+	"	38	0
+
+> ~/xv6/proc.c
+	"	269	0
+	^	269	1
+	.	229	14
+	+	229	0
+	+	227	0
+	+	226	107
+	+	226	107
+	+	226	95
+	+	227	0
+	+	1	1
+	+	229	7
+	+	255	19
+	+	230	0
+	+	229	14
+
+> ~/xv6/proc.h
+	"	52	14
+	^	52	15
+	.	52	14
+	+	52	14
+
+> ~/xv6/zombie.c
+	"	1	0
+
+> ~/xv6/grep.c
+	"	1	0
+
+> ~/xv6/defs.c
+	"	1	0
+
+> ~/xv6/user.h
+	"	7	0
+
+> ~/xv6/trap.c
+	"	1	7
+	^	1	8
+	.	1	8
+	+	1	8
+
+> ~/xv6/forktest.c
+	"	6	12
+	^	17	13
+	.	17	12
+	+	17	12
+
+> ~/xv6/zombie.asm
+	"	1089	29
+
+> ~/xv6/ln.c
+	"	12	14
+	^	12	15
+	.	12	14
+	+	9	20
+	+	16	12
+	+	12	14
+
+> ~/xv6/ln.h
+	"	1	0
+
+> ~/user.h
+	"	1	0
+
+> ~/user.c
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/xv6/exec.c
 	"	9	0
 	^	9	0
 	.	9	0
 	+	9	0
-
-> ~/xv6/proc.h
-	"	58	0
-
-> ~/xv6/user.h
-	"	4	0
